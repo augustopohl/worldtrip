@@ -1,9 +1,9 @@
 import { Box, Flex, Heading, Text, Image } from "@chakra-ui/react";
 
-export default function City() {
+export default function City({ name, country, flag, image }) {
     return (
         <Box borderRadius="4px" overflow="hidden">
-            <Image src="/cidade.png" h="178px" w="100%" />
+            <Image src={image} alt={`${name}, ${country}`} h="178px" w="100%" />
             <Flex
                 p="6"
                 align="center"
@@ -14,10 +14,10 @@ export default function City() {
                 borderTop="0"
             >
                 <Flex direction="column">
-                    <Heading fontSize="xl" fontWeight="500">Londres</Heading>
-                    <Text mt="3" fontSize="md" color="gray.500" fontWeight="500">Reino Unido</Text>
+                    <Heading fontSize="xl" fontWeight="500">{name}</Heading>
+                    <Text mt="3" fontSize="md" color="gray.500" fontWeight="500">{country}</Text>
                 </Flex>
-                <Image src="/flag.png" objectFit="cover" />
+                <Image src={flag} objectFit="cover" w="30px" h="30px" borderRadius="50%" />
             </Flex>
         </Box>
     )
