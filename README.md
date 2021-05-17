@@ -4,8 +4,6 @@
 
 &nbsp;
 
-## 💻 O que tem no projeto?
-
 * Design completo usando completamente o Charka UI, também com sua versão responsiva.
 * Slides usando Swiper.
 
