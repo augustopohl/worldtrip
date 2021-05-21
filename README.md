@@ -1,3 +1,5 @@
+https://worldtrip-theta.vercel.app/
+
 ## O projeto
 
 * O projeto foi desenvolvido durante um dos desafios do programa de aceleração de carreira "Ignite" da plataforma de ensino Rocketseat. O enunciado era desenvolver um site do zero seguindo o layout do Figma usando o framework Chakra UI.
